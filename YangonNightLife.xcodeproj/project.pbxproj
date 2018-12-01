@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		5AF9BAF521B2B07D00CD86E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9BAF421B2B07D00CD86E7 /* AppDelegate.swift */; };
-		5AF9BAF721B2B07D00CD86E7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9BAF621B2B07D00CD86E7 /* FirstViewController.swift */; };
-		5AF9BAF921B2B07D00CD86E7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9BAF821B2B07D00CD86E7 /* SecondViewController.swift */; };
 		5AF9BAFC21B2B07D00CD86E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9BAFA21B2B07D00CD86E7 /* Main.storyboard */; };
 		5AF9BAFE21B2B07F00CD86E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9BAFD21B2B07F00CD86E7 /* Assets.xcassets */; };
 		5AF9BB0121B2B07F00CD86E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9BAFF21B2B07F00CD86E7 /* LaunchScreen.storyboard */; };
+		5AF9BB0B21B2B5D400CD86E7 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9BB0A21B2B5D400CD86E7 /* RestaurantViewController.swift */; };
+		5AF9BB0D21B2B63500CD86E7 /* BarAndClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9BB0C21B2B63500CD86E7 /* BarAndClubViewController.swift */; };
+		5AF9BB0F21B2B65600CD86E7 /* KTVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9BB0E21B2B65600CD86E7 /* KTVViewController.swift */; };
+		5AF9BB1221B2B9FE00CD86E7 /* Restaurant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9BB1021B2B9FE00CD86E7 /* Restaurant.storyboard */; };
+		5AF9BB1421B2BB3300CD86E7 /* BarAndClub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9BB1321B2BB3300CD86E7 /* BarAndClub.storyboard */; };
+		5AF9BB1721B2BB8800CD86E7 /* KTV.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9BB1521B2BB8800CD86E7 /* KTV.storyboard */; };
+		5AFCC86321B2EEC60045F9E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AFCC86221B2EEC60045F9E8 /* GoogleService-Info.plist */; };
+		5AFCC86721B304580045F9E8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFCC86521B304580045F9E8 /* CollectionViewCell.swift */; };
+		5AFCC86821B304580045F9E8 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AFCC86621B304580045F9E8 /* CollectionViewCell.xib */; };
+		670D94580F3B462B94028B0F /* Pods_YangonNightLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542107D3CE7289DA35759C7E /* Pods_YangonNightLife.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		503AC91CD785F015E5CB427F /* Pods-YangonNightLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangonNightLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YangonNightLife/Pods-YangonNightLife.debug.xcconfig"; sourceTree = "<group>"; };
+		542107D3CE7289DA35759C7E /* Pods_YangonNightLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YangonNightLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AEA0E498F2700D30C6A71D9 /* Pods-YangonNightLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YangonNightLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-YangonNightLife/Pods-YangonNightLife.release.xcconfig"; sourceTree = "<group>"; };
 		5AF9BAF121B2B07D00CD86E7 /* YangonNightLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YangonNightLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF9BAF421B2B07D00CD86E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AF9BAF621B2B07D00CD86E7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		5AF9BAF821B2B07D00CD86E7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5AF9BAFB21B2B07D00CD86E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AF9BAFD21B2B07F00CD86E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AF9BB0021B2B07F00CD86E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AF9BB0221B2B07F00CD86E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF9BB0A21B2B5D400CD86E7 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		5AF9BB0C21B2B63500CD86E7 /* BarAndClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarAndClubViewController.swift; sourceTree = "<group>"; };
+		5AF9BB0E21B2B65600CD86E7 /* KTVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTVViewController.swift; sourceTree = "<group>"; };
+		5AF9BB1121B2B9FE00CD86E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = YangonNightLife/storyboard/Base.lproj/Restaurant.storyboard; sourceTree = "<group>"; };
+		5AF9BB1321B2BB3300CD86E7 /* BarAndClub.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BarAndClub.storyboard; sourceTree = "<group>"; };
+		5AF9BB1621B2BB8800CD86E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = YangonNightLife/storyboard/Base.lproj/KTV.storyboard; sourceTree = "<group>"; };
+		5AFCC86221B2EEC60045F9E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5AFCC86521B304580045F9E8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5AFCC86621B304580045F9E8 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				670D94580F3B462B94028B0F /* Pods_YangonNightLife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				5AF9BAF321B2B07D00CD86E7 /* YangonNightLife */,
 				5AF9BAF221B2B07D00CD86E7 /* Products */,
+				A4BD7F9AC384C43D59E512D1 /* Pods */,
+				BB1E5BE8BAD15F2D6A3B407F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,63 @@
 		5AF9BAF321B2B07D00CD86E7 /* YangonNightLife */ = {
 			isa = PBXGroup;
 			children = (
+				5AFCC86421B303900045F9E8 /* cell */,
+				5AF9BB0921B2B09B00CD86E7 /* controller */,
+				5AF9BB0821B2B08B00CD86E7 /* storyboard */,
 				5AF9BAF421B2B07D00CD86E7 /* AppDelegate.swift */,
-				5AF9BAF621B2B07D00CD86E7 /* FirstViewController.swift */,
-				5AF9BAF821B2B07D00CD86E7 /* SecondViewController.swift */,
-				5AF9BAFA21B2B07D00CD86E7 /* Main.storyboard */,
 				5AF9BAFD21B2B07F00CD86E7 /* Assets.xcassets */,
 				5AF9BAFF21B2B07F00CD86E7 /* LaunchScreen.storyboard */,
+				5AFCC86221B2EEC60045F9E8 /* GoogleService-Info.plist */,
 				5AF9BB0221B2B07F00CD86E7 /* Info.plist */,
 			);
 			path = YangonNightLife;
+			sourceTree = "<group>";
+		};
+		5AF9BB0821B2B08B00CD86E7 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9BAFA21B2B07D00CD86E7 /* Main.storyboard */,
+				5AF9BB1021B2B9FE00CD86E7 /* Restaurant.storyboard */,
+				5AF9BB1321B2BB3300CD86E7 /* BarAndClub.storyboard */,
+				5AF9BB1521B2BB8800CD86E7 /* KTV.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		5AF9BB0921B2B09B00CD86E7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9BB0A21B2B5D400CD86E7 /* RestaurantViewController.swift */,
+				5AF9BB0C21B2B63500CD86E7 /* BarAndClubViewController.swift */,
+				5AF9BB0E21B2B65600CD86E7 /* KTVViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5AFCC86421B303900045F9E8 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				5AFCC86521B304580045F9E8 /* CollectionViewCell.swift */,
+				5AFCC86621B304580045F9E8 /* CollectionViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		A4BD7F9AC384C43D59E512D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				503AC91CD785F015E5CB427F /* Pods-YangonNightLife.debug.xcconfig */,
+				5AEA0E498F2700D30C6A71D9 /* Pods-YangonNightLife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB1E5BE8BAD15F2D6A3B407F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				542107D3CE7289DA35759C7E /* Pods_YangonNightLife.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AF9BB0521B2B07F00CD86E7 /* Build configuration list for PBXNativeTarget "YangonNightLife" */;
 			buildPhases = (
+				3A62DC01153BAC407FA50C78 /* [CP] Check Pods Manifest.lock */,
 				5AF9BAED21B2B07D00CD86E7 /* Sources */,
 				5AF9BAEE21B2B07D00CD86E7 /* Frameworks */,
 				5AF9BAEF21B2B07D00CD86E7 /* Resources */,
+				D1CB92455DB44A65CEBDAB62 /* [CP] Embed Pods Frameworks */,
+				33B68E8BEBAD5746DB6B8E15 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,22 +197,110 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF9BB1421B2BB3300CD86E7 /* BarAndClub.storyboard in Resources */,
 				5AF9BB0121B2B07F00CD86E7 /* LaunchScreen.storyboard in Resources */,
+				5AF9BB1721B2BB8800CD86E7 /* KTV.storyboard in Resources */,
+				5AF9BB1221B2B9FE00CD86E7 /* Restaurant.storyboard in Resources */,
 				5AF9BAFE21B2B07F00CD86E7 /* Assets.xcassets in Resources */,
 				5AF9BAFC21B2B07D00CD86E7 /* Main.storyboard in Resources */,
+				5AFCC86821B304580045F9E8 /* CollectionViewCell.xib in Resources */,
+				5AFCC86321B2EEC60045F9E8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33B68E8BEBAD5746DB6B8E15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YangonNightLife/Pods-YangonNightLife-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YangonNightLife/Pods-YangonNightLife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A62DC01153BAC407FA50C78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YangonNightLife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1CB92455DB44A65CEBDAB62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YangonNightLife/Pods-YangonNightLife-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YangonNightLife/Pods-YangonNightLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5AF9BAED21B2B07D00CD86E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AF9BAF921B2B07D00CD86E7 /* SecondViewController.swift in Sources */,
+				5AFCC86721B304580045F9E8 /* CollectionViewCell.swift in Sources */,
 				5AF9BAF521B2B07D00CD86E7 /* AppDelegate.swift in Sources */,
-				5AF9BAF721B2B07D00CD86E7 /* FirstViewController.swift in Sources */,
+				5AF9BB0D21B2B63500CD86E7 /* BarAndClubViewController.swift in Sources */,
+				5AF9BB0F21B2B65600CD86E7 /* KTVViewController.swift in Sources */,
+				5AF9BB0B21B2B5D400CD86E7 /* RestaurantViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +321,22 @@
 				5AF9BB0021B2B07F00CD86E7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5AF9BB1021B2B9FE00CD86E7 /* Restaurant.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF9BB1121B2B9FE00CD86E7 /* Base */,
+			);
+			name = Restaurant.storyboard;
+			sourceTree = "<group>";
+		};
+		5AF9BB1521B2BB8800CD86E7 /* KTV.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF9BB1621B2BB8800CD86E7 /* Base */,
+			);
+			name = KTV.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,6 +460,7 @@
 		};
 		5AF9BB0621B2B07F00CD86E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503AC91CD785F015E5CB427F /* Pods-YangonNightLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +479,7 @@
 		};
 		5AF9BB0721B2B07F00CD86E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEA0E498F2700D30C6A71D9 /* Pods-YangonNightLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

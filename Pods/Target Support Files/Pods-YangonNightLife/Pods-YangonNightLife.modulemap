@@ -1,0 +1,6 @@
+framework module Pods_YangonNightLife {
+  umbrella header "Pods-YangonNightLife-umbrella.h"
+
+  export *
+  module * { export * }
+}

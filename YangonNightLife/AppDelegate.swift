@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+        let db = Firestore.firestore()
+        
+        var ref : DocumentReference? = nil
+        ref = db.collection("Restaurants").addDocument(data: [
+            "name" : "Le Planteur Restaurants & Lounge",
+            "address" : "80 University Avenue, Bahan Township, Yangon, Myanmar (Burma), Yangon",
+            "phone" : "01 514 230",
+            "website" : "http://leplanteur.net",
+            "opening_time" : "11:30AM–11:30PM",
+            "lat" : 16.8148873,
+            "long" : 96.1313449,
+            "rating" : 4.5,
+            "type" : "French Restaurant"
+        ]) { err in
+            if let err = err {
+                print("Error adding document: \(err)")
+            } else {
+                print("Document added with ID: \(ref!.documentID)")
+            }
+            
+        }
+        
         return true
     }
 
